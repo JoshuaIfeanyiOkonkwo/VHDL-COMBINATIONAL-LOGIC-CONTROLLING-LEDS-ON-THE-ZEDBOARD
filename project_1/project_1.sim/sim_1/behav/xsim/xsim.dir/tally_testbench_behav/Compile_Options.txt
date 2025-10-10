@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "tally_testbench_behav" "xil_defaultlib.tally_testbench" -log "elaborate.log" 
