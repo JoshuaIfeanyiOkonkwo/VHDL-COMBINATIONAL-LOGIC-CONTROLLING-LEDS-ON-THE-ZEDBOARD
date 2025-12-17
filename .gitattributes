@@ -1,0 +1,13 @@
+*.vhd  linguist-language=VHDL
+*.vhdl linguist-language=VHDL
+*.vho  linguist-language=VHDL
+*.vhs  linguist-language=VHDL
+
+# Tell GitHub to ignore Vivado TCL files in language stats
+*.tcl linguist-detectable=false
+*.jou linguist-detectable=false
+*.log linguist-detectable=false
+*.xml linguist-detectable=false
+*.html linguist-detectable=false
+*.json linguist-detectable=false
+*.js linguist-detectable=false
