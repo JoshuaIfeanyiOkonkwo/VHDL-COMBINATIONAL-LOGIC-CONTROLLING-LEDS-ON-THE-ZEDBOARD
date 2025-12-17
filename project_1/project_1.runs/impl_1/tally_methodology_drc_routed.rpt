@@ -1,0 +1,77 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Wed Oct  8 22:08:25 2025
+| Host         : LAPTOP-TSMU9UUL running 64-bit major release  (build 9200)
+| Command      : report_methodology -file tally_methodology_drc_routed.rpt -pb tally_methodology_drc_routed.pb -rpx tally_methodology_drc_routed.rpx
+| Design       : tally
+| Device       : xc7z020clg484-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 6
++--------+----------+-------------------------------------------------+------------+
+| Rule   | Severity | Description                                     | Violations |
++--------+----------+-------------------------------------------------+------------+
+| XDCC-5 | Warning  | User Non-Timing constraint/property overwritten | 6          |
++--------+----------+-------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+XDCC-5#1 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on scoresA[0] overrides a previous user property.
+New Source: C:/Users/joshu/Desktop/test/project_1/project_1.srcs/constrs_1/new/tally.xdc (Line: 379)
+Previous Source: C:/Users/joshu/Desktop/test/project_1/project_1.srcs/constrs_1/new/tally.xdc (Line: 186)
+Related violations: <none>
+
+XDCC-5#2 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on scoresA[1] overrides a previous user property.
+New Source: C:/Users/joshu/Desktop/test/project_1/project_1.srcs/constrs_1/new/tally.xdc (Line: 379)
+Previous Source: C:/Users/joshu/Desktop/test/project_1/project_1.srcs/constrs_1/new/tally.xdc (Line: 186)
+Related violations: <none>
+
+XDCC-5#3 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on scoresA[2] overrides a previous user property.
+New Source: C:/Users/joshu/Desktop/test/project_1/project_1.srcs/constrs_1/new/tally.xdc (Line: 379)
+Previous Source: C:/Users/joshu/Desktop/test/project_1/project_1.srcs/constrs_1/new/tally.xdc (Line: 186)
+Related violations: <none>
+
+XDCC-5#4 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on scoresB[0] overrides a previous user property.
+New Source: C:/Users/joshu/Desktop/test/project_1/project_1.srcs/constrs_1/new/tally.xdc (Line: 379)
+Previous Source: C:/Users/joshu/Desktop/test/project_1/project_1.srcs/constrs_1/new/tally.xdc (Line: 187)
+Related violations: <none>
+
+XDCC-5#5 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on scoresB[1] overrides a previous user property.
+New Source: C:/Users/joshu/Desktop/test/project_1/project_1.srcs/constrs_1/new/tally.xdc (Line: 379)
+Previous Source: C:/Users/joshu/Desktop/test/project_1/project_1.srcs/constrs_1/new/tally.xdc (Line: 187)
+Related violations: <none>
+
+XDCC-5#6 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on scoresB[2] overrides a previous user property.
+New Source: C:/Users/joshu/Desktop/test/project_1/project_1.srcs/constrs_1/new/tally.xdc (Line: 379)
+Previous Source: C:/Users/joshu/Desktop/test/project_1/project_1.srcs/constrs_1/new/tally.xdc (Line: 187)
+Related violations: <none>
+
+
